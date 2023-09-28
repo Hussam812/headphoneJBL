@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*==========================  Sections styles ==========================*/
 @import url("./header/styles.css");
+@import url("./home/styles.css");
 
 
 /*==========================  VARIABLES CSS ==========================*/
