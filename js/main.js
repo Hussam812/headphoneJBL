@@ -32,3 +32,18 @@ const blurHeader = () => {
 };
 
 window.addEventListener("scroll", blurHeader);
+
+//swiper favorite
+let swiperFavorite = new Swiper(".favorite__swiper", {
+  // Optional parameters
+
+  loop: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+  grabCursor: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+  },
+});
