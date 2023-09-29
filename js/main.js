@@ -22,3 +22,13 @@ for (let i = 0; i < navLinks.length; i++) {
     navMenu.classList.remove("show-menu");
   });
 }
+//Add Blur header
+
+const blurHeader = () => {
+  const header = document.getElementById("header");
+  this.scrollY >= 50
+    ? header.classList.add("blur-header")
+    : header.classList.remove("blur-header");
+};
+
+window.addEventListener("scroll", blurHeader);
